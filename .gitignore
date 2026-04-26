@@ -1,0 +1,61 @@
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.ipynb_checkpoints/
+
+# Python build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Runtime logs and temp output
+*.log
+logs/
+
+# Project-local tools
+.deepeval/
+.claude/
+
+# Data artifacts (generated / personal exports)
+data/
+store/
+
+# Frontend (Next.js app)
+filmnerd-ui/node_modules/
+filmnerd-ui/.next/
+filmnerd-ui/out/
+filmnerd-ui/.turbo/
+filmnerd-ui/.env.local
+filmnerd-ui/.env.*
+!filmnerd-ui/.env.example
+
+blog_post.md
+BUILD_CHECKLIST.md
+film_taste_intelligence_spec.md
+filmnerd-ui-spec.md
