@@ -95,6 +95,34 @@ Note: the UI expects the backend API on port 8000 for chat and recommendation fe
 
 ---
 
+## UI
+
+### Chat
+
+Ask for films in natural language — by mood, craft style, or by referencing a specific film. The agent resolves your query into craft dimensions, retrieves candidates from the vector index, and streams back recommendations with explanations grounded in your taste profile.
+
+![chat](imgs/chat.png)
+
+### Taste
+
+Your decomposed taste profile at a glance. Shows the predictive dimensions with the highest weight, your divergence from consensus ratings per dimension value, and top-level model stats (MAE, variance explained, films trained on).
+
+![taste](imgs/taste.png)
+
+### Log
+
+Search TMDB by title, pick a star rating (0.5–5.0), add optional notes, and submit. Triggers the enrichment and annotation pipeline for new films and updates the corpus.
+
+![log](imgs/log.png)
+
+### Browse
+
+Filterable table of your full 808-film corpus. Filter by pacing, tone, body experience, and reality register. Columns show year, your rating, and key craft dimensions at a glance.
+
+![browse](imgs/browse.png)
+
+---
+
 ## Environment Variables
 
 ```bash
